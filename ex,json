@@ -1,0 +1,47 @@
+{
+  "coord": {
+    "lon": 87.2834,
+    "lat": 26.4831
+  },
+  "weather": [
+    {
+      "id": 501,
+      "main": "Rain",
+      "description": "moderate rain",
+      "icon": "10d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 299.96,
+    "feels_like": 302.9,
+    "temp_min": 299.96,
+    "temp_max": 299.96,
+    "pressure": 1003,
+    "humidity": 85,
+    "sea_level": 1003,
+    "grnd_level": 994
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.33,
+    "deg": 82,
+    "gust": 3.53
+  },
+  "rain": {
+    "1h": 3.55
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1656485761,
+  "sys": {
+    "country": "NP",
+    "sunrise": 1656458433,
+    "sunset": 1656508062
+  },
+  "timezone": 20700,
+  "id": 1283582,
+  "name": "Biratnagar",
+  "cod": 200
+}

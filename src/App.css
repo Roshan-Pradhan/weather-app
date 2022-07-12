@@ -1,0 +1,126 @@
+@import "antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Arima&display=swap");
+body {
+  background-color: #eaf9e7;
+  /* overflow: hidden; */
+  font-family: "Arima", cursive;
+}
+p {
+  margin: 0px;
+}
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.appBody {
+  background-color: #013237;
+  width: 400px;
+  height: 450px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar input {
+  outline: none;
+  border: none;
+  width: 250px;
+  padding: 10px 10px;
+  border: 2px solid #4ca771;
+  border-radius: 8px;
+}
+.searchButton {
+  width: 250px;
+  border-radius: 8px;
+}
+.cityname {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  position: relative;
+}
+.countryname {
+  position: absolute;
+  color: white;
+}
+.tempNow {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+}
+
+.weather {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: -20px;
+}
+.weatherDesc {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+}
+.weatherDescOPy {
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.tableCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+table,
+th,
+td {
+  border: 3px solid #013237;
+  border-collapse: collapse;
+  width: 300px;
+  padding: 5px;
+  width: 400px;
+}
+th,
+td {
+  background-color: #4ca771;
+  text-align: center;
+  color: white;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .appBody {
+    width: 300px;
+    height: 450px;
+    padding: 50px 10px;
+  }
+
+  .weatherDescOPy {
+    margin-top: 5px;
+  }
+  body {
+    overflow: scroll;
+  }
+}
